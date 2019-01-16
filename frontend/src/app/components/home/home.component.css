@@ -1,0 +1,63 @@
+.w-full {
+    width: 800px;
+    height: 45px;
+  }
+  
+  .w-full:focus {
+    border: 3px solid #9e6481 !important;
+    box-shadow: 0 0 3px #9e6481 !important;
+    -moz-box-shadow: 0 0 3px #9e6481 !important;
+    -webkit-box-shadow: 0 0 3px #9e6481 !important;
+  }
+  
+  .searchForm button {
+    cursor: pointer;
+    padding: 10px;
+    margin-left: -45px;
+    padding-top: 7px;
+    border: none;
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .searchForm button:focus {
+    outline: none !important;
+  }
+  
+  .searchForm button:hover {
+    color: lightgrey;
+    transition: 0.3s;
+  }
+  
+  .tooltip .tooltipText {
+    visibility: hidden;
+    margin-left: -112px;
+    margin-top: 30px;
+    opacity: 0.8;
+    font-size: 70%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .tooltip .tooltipText::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+  .tooltip:hover .tooltipText {
+    visibility: visible;
+  }
+  
